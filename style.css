@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container , .render-container {
+    width: 60%;
+    margin: auto;
+    border-radius: 6px;
+    border: 2px solid #000;
+    margin-top: 100px;
+    background-color:lightsteelblue;
+}
+
+.container > h2 , .render-container > h2 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.container > .question {
+    display: block;
+    padding: 20px;
+    margin: 10px 30px;
+    outline: none;
+    width: 80%;
+}
+
+.container > .answer  {
+    display: block;
+    padding: 10px;
+    margin: 10px 30px;
+    outline: none;
+    width: 40%;
+}
+
+.container > .add {
+    padding: 10px;
+    margin: 10px 0 20px 20px;
+}
+
+.container > span {
+    margin-left: 10px;
+}
+
+.correct-answer {
+    padding: 10px;
+    width: 40%;
+}
+
+
+.move-render {
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.move-render a {
+    text-decoration: none;
+}
+
+
+/* css riêng cho tran render */
+
+.render-container ul li {
+    list-style-type: none;
+}
+
+.render-container .next-question {
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 600px;
+    margin-bottom: 20px;
+}
+
+.render-container .render-answer {
+    
+    padding: 10px;
+    margin: 10px 30px;
+    outline: none;
+    width: 40%;
+}
